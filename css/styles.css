@@ -1,16 +1,30 @@
 /* Your Website Styles */
-h1 {
-    color: #ffff00;
-    font-family: 'Lobster', cursive;
-    background: red;
-    width: 300px;
-    padding: 10px;
-    border: 10px solid #000000;
-}
 
 body {
     background: url("../img/bg.png");
 }
+
+p {
+    display: block;
+}
+
+.profilepicture {
+    max-width: 50px;
+    display: inline;
+    padding: 15px 0 0 40px;
+}
+
+.titlename {
+    padding: 0 0 0 70px;
+    font-size: 30px;
+}
+.titlemajor {
+    padding: o;
+    border: 0;
+    margin: -30px 0 30px 110px;
+    font-size: 15px;
+}
+
 
 /* Show Grid */
 .showgrid {
