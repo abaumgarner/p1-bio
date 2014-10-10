@@ -1,7 +1,7 @@
 /* Your Website Styles */
 
 body {
-    background: url("../img/bg.png");
+    background: #f8f8ff;
 }
 
 p {
@@ -11,20 +11,40 @@ p {
 .profilepicture {
     max-height: 111px;
     display: inline;
-    padding: 5px 0 0 15px;
+    padding: 25px 0 0 15px;
+    border-radius: 15px;
 }
 
 .titlename {
-    padding: 10px 0 0 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    padding: 30px 0 0 20px;
     font-size: 30px;
 }
 .titlemajor {
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
     border: 0;
     margin: -25px 0 30px 110px;
     font-size: 15px;
 }
 
+.professional {
+    padding-left: 40px;
+}
+
+.info {
+    margin-top: 100px;
+    padding-left: 40px;
+}
+
+.additional {
+    padding-left: 40px;
+}
+
+.test {
+
+}
 
 /* Show Grid */
 .showgrid {
