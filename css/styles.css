@@ -15,6 +15,7 @@ p {
     padding: 25px 0 0 15px;
     margin: -130px 200px;
 
+   /* Rounding the corners of an image */
     -webkit-border-bottom-left-radius: 40px;
     -webkit-border-bottom-right-radius: 35px;
     -webkit-border-top-left-radius: 55px;
@@ -45,8 +46,8 @@ p {
     padding-left: 40px;
 }
 
-.test {
-
+.content {
+    background: #f2eda0;
 }
 
 /* Show Grid */
