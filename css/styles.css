@@ -5,7 +5,7 @@ body {
 
 p {
     display: block;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #profilepicture {
@@ -25,8 +25,8 @@ p {
     color: #f5e1d8;
 }
 
-#sectionhead {
-    font-weight: 400;
+.sectionhead {
+    font-weight: 500;
     font-size: 25px;
 }
 
@@ -38,8 +38,12 @@ p {
     border-radius: 5px;
 }
 
-.content {
-    background: #f2eda0;
+#content {
+    background: #9a968b;
+    height: 100%;
+    padding-top: 1px;
+    margin-top: -5px;
+    width: 500px;
 }
 
 /* Show Grid */
