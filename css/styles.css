@@ -1,7 +1,6 @@
 /* Your Website Styles */
-/*  https://color.adobe.com/camp-fire-magic-color-theme-4540509/ */
 body {
-    background: #f8f8ff;
+    background: #e0e0d8;
 }
 
 p {
@@ -9,41 +8,34 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.profilepicture {
+#profilepicture {
     max-height: 600px;
     display: inline;
     padding: 25px 0 0 15px;
     margin: -130px 200px;
-
-   /* Rounding the corners of an image */
-    -webkit-border-bottom-left-radius: 40px;
-    -webkit-border-bottom-right-radius: 35px;
-    -webkit-border-top-left-radius: 55px;
-    -webkit-border-top-right-radius: 50px;
+    border-radius: 10%;
 }
 
-.titlename {
-    font-weight: 400;
-    padding: 10px 0 0 50px;
-    font-size: 40px;
+#titlename {
     font-weight: 700;
-    margin-top: 5px;
+    padding: 20px 0 0 50px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #f5e1d8;
 }
 
-.titlemajor {
-    padding: 0;
-    border: 0;
-    margin: -40px 0 40px 150px;
-    font-size: 20px;
+#sectionhead {
+    font-weight: 400;
+    font-size: 25px;
 }
 
-.header {
-    background: #f2836b;
-    color: #000000;
-}
-
-.professional {
-    padding-left: 40px;
+#header {
+    background: #644c4c;
+    width: 100%;
+    height: 100px;
+    margin: -5px -30px;
+    border-radius: 5px;
 }
 
 .content {
