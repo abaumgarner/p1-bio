@@ -27,12 +27,12 @@ ul {
 
 /* Picture Styles */
 #profilepicture {
-    max-height: 600px;
+    max-height: 620px;
     display: inline;
     border-radius: 10%;
     padding: 25px 0 0 15px;
-    margin-top: -63px;
-    margin-left: 5px;
+    margin-top: -70px;
+    margin-left: 0;
 }
 
 /* Style for my name */
@@ -67,7 +67,7 @@ ul {
 #bdy {
     height: 100%;
     padding-top: 5px;
-    padding-right: 40px;
+    padding-right: 30px;
     padding-left: 15px;
     padding-bottom: 20px;
     margin-top: -5px;
