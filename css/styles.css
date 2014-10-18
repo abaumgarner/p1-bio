@@ -1,24 +1,43 @@
 /* Your Website Styles */
+/* https://color.adobe.com/Java-color-theme-2749847/ */
+
+/* Changes the site background */
 body {
-    background: #e0e0d8;
+    background-image: url(../img/grey.png);
 }
 
+/* Sets font for text on page */
 p {
     display: block;
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #e0e0d8;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+/* Picture Styles */
 #profilepicture {
     max-height: 600px;
     display: inline;
     border-radius: 10%;
     padding: 25px 0 0 15px;
-    margin-top: -100px;
-    margin-left: -60px;
+    margin-top: -63px;
+    margin-left: 5px;
 }
 
+/* Style for my name */
 #titlename {
-    font-weight: 700;
+    font-weight: 900;
     padding: 45px 0 0 50px;
     font-size: 40px;
     margin-top: 40px;
@@ -26,14 +45,7 @@ p {
     color: #f5e1d8;
 }
 
-.sectionhead {
-    font-weight: 500;
-    font-size: 25px;
-    margin-left: 20px;
-    margin-bottom: 0px;
-    color: #644c4c;
-}
-
+/* Style for header/bg behind my name */
 #header {
     background: #644c4c;
     width: 100%;
@@ -42,22 +54,50 @@ p {
     border-radius: 5px;
 }
 
+/* Style for subheadings */
+.sectionhead {
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: #644c4c;
+}
+
+/* Style for bg of content */
 #bdy {
     height: 100%;
     padding-top: 5px;
     padding-right: 40px;
     padding-left: 15px;
-    margin-top: -8px;
+    padding-bottom: 20px;
+    margin-top: -5px;
     margin-right: -30px;
     width: 500px;
+    background: #9a968b;
+    border-radius: 0 0 0 10px;
 }
 
-#content {
-    margin-top: 17;
+/* Style for text of main content on page */
+.content {
+    margin-top: 17px;
     font-size: 15px;
     text-indent: 10px;
     padding-left: 35px;
-    color: #644c4c;
+    color: #e0e0d8;
+}
+
+#foot {
+    text-indent: center;
+    font-size: 10px;
+    padding-left: 200px;
+}
+
+.link {
+    padding-top: 5px;
+}
+
+#email {
+    color: #000000;
 }
 
 /* Show Grid */
