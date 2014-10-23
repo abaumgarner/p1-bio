@@ -92,6 +92,11 @@ ul {
     padding-top: 5px;
 }
 
+.linkimage {
+    width: 5%;
+    height: auto;
+}
+
 #email {
     color: #000000;
 }
